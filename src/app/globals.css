@@ -1,26 +1,97 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-red-50: #fef2f2;
+  --color-red-500: #fb2c36;
+  --color-red-600: #e7000b;
+  --color-amber-50: #fffbeb;
+  --color-amber-200: #fee685;
+  --color-amber-600: #e17100;
+  --color-amber-700: #bb4d00;
+  --color-amber-800: #973c00;
+  --color-yellow-50: #fefce8;
+  --color-yellow-200: #fff085;
+  --color-yellow-400: #fcc800;
+  --color-yellow-500: #efb100;
+  --color-yellow-600: #d08700;
+  --color-yellow-700: #a65f00;
+  --color-green-50: #f0fdf4;
+  --color-green-100: #dcfce7;
+  --color-green-200: #b9f8cf;
+  --color-green-600: #00a63e;
+  --color-green-700: #008236;
+  --color-green-800: #016630;
+  --color-blue-50: #eff6ff;
+  --color-blue-100: #dbeafe;
+  --color-blue-200: #bedbff;
+  --color-blue-800: #193cb8;
+  --color-gray-50: #f9fafb;
+  --color-gray-200: #e5e7eb;
+  --color-gray-400: #99a1af;
+  --color-gray-500: #6a7282;
+  --color-gray-600: #4a5565;
+  --color-gray-700: #364153;
+  --color-gray-800: #1e2939;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 20%;
 }
+
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #186c69; /* Azul Petróleo */
+  --color-secondary: #7dc5ba; /* Verde Menta */
+  --color-light: #edf6f9; /* Cinza Gelo */
+  --color-dark: #333333; /* Cinza Chumbo */
+  --color-highlight: #ff6b6b; /* Coral */
+
+  --color-background: #edf6f9; /* Cinza Gelo */
+  --color-foreground: #333333; /* Cinza Chumbo */
+
+  --color-card: #ffffff; /* Branco */
+  --color-card-foreground: #333333; /* Cinza Chumbo */
+
+  --color-popover: #ffffff; /* Branco */
+  --color-popover-foreground: #333333; /* Cinza Chumbo */
+
+  --color-primary-foreground: #ffffff; /* Branco */
+  --color-secondary-foreground: #333333; /* Cinza Chumbo */
+
+  --color-muted: #edf6f9; /* Cinza Gelo */
+  --color-muted-foreground: #737373; /* Cinza Médio */
+
+  --color-accent: #83c5be; /* Verde Menta */
+  --color-accent-foreground: #333333; /* Cinza Chumbo */
+
+  --color-destructive: #ff6b6b; /* Coral */
+  --color-destructive-foreground: #ffffff; /* Branco */
+
+  --color-border: #e6e6e6; /* Cinza Claro */
+  --color-input: #e6e6e6; /* Cinza Claro */
+  --color-ring: #006d77; /* Azul Petróleo */
+
+  --color-sidebar: #edf6f9; /* Cinza Gelo */
+  --color-sidebar-foreground: #333333; /* Cinza Chumbo */
+  --color-sidebar-primary: #006d77; /* Azul Petróleo */
+  --color-sidebar-primary-foreground: #ffffff; /* Branco */
+  --color-sidebar-accent: #83c5be; /* Verde Menta */
+  --color-sidebar-accent-foreground: #333333; /* Cinza Chumbo */
+  --color-sidebar-border: #e6e6e6; /* Cinza Claro */
+  --color-sidebar-ring: #006d77; /* Azul Petróleo */
+
+  --radius-sm: calc(0.5rem - 4px);
+  --radius-md: calc(0.5rem - 2px);
+  --radius-lg: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-background text-foreground;
+  }
 }
