@@ -15,5 +15,7 @@ declare namespace NodeJS {
     FIREBASE_AUTH_PROVIDER_X509_CERT_URL: string;
     FIREBASE_CLIENT_X509_CERT_URL: string;
     FIREBASE_UNIVERSE_DOMAIN: string;
+    NEXT_PUBLIC_API_URL: string;
+    NEXT_PUBLIC_URL: string;
   }
 }
