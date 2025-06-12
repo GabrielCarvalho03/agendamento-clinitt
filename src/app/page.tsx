@@ -809,14 +809,13 @@ const BookDemo = () => {
                 className="bg-white shadow rounded-lg border border-gray-100"
               >
                 <AccordionTrigger className="px-4 md:px-6 py-4 hover:no-underline font-medium text-sm md:text-base">
-                  Quanto tempo leva para implementar a Clinitt.ai na minha
-                  clínica?
+                  O que exatamente a Clinitt.ai faz?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 md:px-6 pb-4 text-xs md:text-sm text-gray-700">
-                  A implementação é rápida e simples, levando em média 24 a 48
-                  horas. Nossa equipe fornece treinamento completo para você e
-                  sua equipe, garantindo que todos possam aproveitar ao máximo
-                  os recursos da plataforma desde o primeiro dia.
+                  A Clinitt.ai é uma plataforma que cria orçamentos
+                  odontológicos estratégicos e personalizados em menos de 1
+                  minuto, com foco em aumentar a aceitação dos tratamentos pelos
+                  pacientes.
                 </AccordionContent>
               </AccordionItem>
 
@@ -825,14 +824,12 @@ const BookDemo = () => {
                 className="bg-white shadow rounded-lg border border-gray-100"
               >
                 <AccordionTrigger className="px-4 md:px-6 py-4 hover:no-underline font-medium text-sm md:text-base">
-                  A plataforma se integra com meu software de gestão atual?
+                  Preciso entender de marketing ou design para usar?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 md:px-6 pb-4 text-xs md:text-sm text-gray-700">
-                  Sim! A Clinitt.ai foi desenvolvida para integrar com os
-                  principais sistemas de gestão odontológica do mercado. Durante
-                  a implementação, configuramos as integrações necessárias para
-                  que você tenha uma experiência fluida e sem duplicação de
-                  dados.
+                  Não. A ferramenta é simples, intuitiva e já vem pronta com
+                  modelos visuais e textos persuasivos. Basta preencher os dados
+                  do paciente e selecionar os tratamentos.
                 </AccordionContent>
               </AccordionItem>
 
@@ -841,14 +838,13 @@ const BookDemo = () => {
                 className="bg-white shadow rounded-lg border border-gray-100"
               >
                 <AccordionTrigger className="px-4 md:px-6 py-4 hover:no-underline font-medium text-sm md:text-base">
-                  Preciso de algum equipamento especial para usar a plataforma?
+                  Quais tipos de tratamentos estão disponíveis?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 md:px-6 pb-4 text-xs md:text-sm text-gray-700">
-                  Não é necessário nenhum equipamento especial. A Clinitt.ai é
-                  uma solução baseada em nuvem que funciona em qualquer
-                  dispositivo com acesso à internet - computadores, tablets ou
-                  smartphones. Isso oferece flexibilidade para criar e
-                  apresentar orçamentos em qualquer lugar.
+                  A plataforma já vem com os principais procedimentos
+                  odontológicos cadastrados (como clareamento, implante,
+                  aparelho, facetas, etc.), mas você pode adicionar qualquer
+                  outro tratamento da sua clínica.
                 </AccordionContent>
               </AccordionItem>
 
@@ -857,15 +853,11 @@ const BookDemo = () => {
                 className="bg-white shadow rounded-lg border border-gray-100"
               >
                 <AccordionTrigger className="px-4 md:px-6 py-4 hover:no-underline font-medium text-sm md:text-base">
-                  Quanto custa a assinatura da Clinitt.ai?
+                  Posso personalizar os preços e formas de pagamento?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 md:px-6 pb-4 text-xs md:text-sm text-gray-700">
-                  Oferecemos planos flexíveis que se adaptam ao tamanho e
-                  necessidades da sua clínica, com preços a partir de R$
-                  197/mês. Durante a demonstração personalizada, apresentaremos
-                  as opções disponíveis e ajudaremos a selecionar o plano ideal
-                  para sua operação. Lembre-se: atualmente temos uma oferta
-                  especial com 50% de desconto em qualquer plano.
+                  Sim. É possível editar valores, prazos, condições de pagamento
+                  e até adicionar imagens próprias dos tratamentos.
                 </AccordionContent>
               </AccordionItem>
 
@@ -874,14 +866,13 @@ const BookDemo = () => {
                 className="bg-white shadow rounded-lg border border-gray-100"
               >
                 <AccordionTrigger className="px-4 md:px-6 py-4 hover:no-underline font-medium text-sm md:text-base">
-                  Existe um período de teste antes de assinar?
+                  Preciso instalar algo para usar a Clinitt.ai?
                 </AccordionTrigger>
                 <AccordionContent className="px-4 md:px-6 pb-4 text-xs md:text-sm text-gray-700">
-                  Sim! Oferecemos um período de teste de 14 dias com acesso a
-                  todos os recursos da plataforma. Além disso, fornecemos
-                  garantia de 30 dias - se não estiver completamente satisfeito,
-                  devolvemos seu investimento. Nossa prioridade é seu sucesso e
-                  satisfação.
+                  Não precisa instalar nada. A Clinitt.ai funciona direto no
+                  navegador (Google Chrome, Safari, etc.) e em poucos minutos
+                  você já pode começar a usar. É só acessar, fazer login e
+                  pronto.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
