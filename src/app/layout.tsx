@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agendamento Clinitt",
-  description: "Agende sua demonstração",
+  title: "Clinitt.ai | Orçamentos Odontológicos Inteligentes ",
+  description:
+    "Crie orçamentos personalizados, persuasivos e profissionais em menos de 1 minuto. Aumente a aceitação e destaque sua clínica com a Clinitt.ai.",
 };
 
 export default function RootLayout({
